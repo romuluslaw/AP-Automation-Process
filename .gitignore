@@ -1,0 +1,12 @@
+# clasp (if you later manage this with the Apps Script CLI)
+.clasp.json
+.clasprc.json
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# never commit real config — Config.gs in this repo should only ever
+# contain placeholder IDs, but if you fork this with real values, keep them out
+*.local.gs
